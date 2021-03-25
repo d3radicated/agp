@@ -1,0 +1,14 @@
+{
+    "name": "d3radicated/agp",
+    "type": "project",
+    "authors": [
+        {
+            "name": "John Ryan Camatog",
+            "email": "john.ryan.camatog@gmail.com"
+        }
+    ],
+    "require": {
+        "botman/botman": "^2.6",
+        "botman/driver-web": "^1.5"
+    }
+}
