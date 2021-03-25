@@ -67,7 +67,7 @@
     });
 
     function showAudio() {
-      const blob = new Blob(chunks, { type: 'audio/ogg' });
+      const blob = new Blob(chunks, { type: 'audio/mpeg' });
       const url = URL.createObjectURL(blob);
 
       const audio = document.createElement('audio');
@@ -76,7 +76,7 @@
 
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'audio.ogg';
+      a.download = 'audio.mp3';
       a.innerHTML = 'Download Recorded Audio';
 
       output.innerHTML = '';
